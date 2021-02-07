@@ -31,13 +31,13 @@ int main(){
 
     if(perc>=90)
     printf("\nGRADE A");
-    else if(perc>=80)
+    else if(perc>=80&&perc<90)
     printf("\nGRADE B");
-    else if(perc>=70)
+    else if(perc>=70&&perc<80)
     printf("\nGRADE C");
-    else if(perc>=60)
+    else if(perc>=60&&perc<70)
     printf("\nGRADE D");
-    else if(perc>=40)
+    else if(perc>=40&&perc<60)
     printf("\nGRADE E");
     else
     printf("\nGRADE F");
