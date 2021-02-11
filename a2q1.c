@@ -10,10 +10,10 @@ int main(){
     while(num>0)
     {
         Remainder = num % 10;
-        sum = sum * Remainder;
+        sum = sum + Remainder;
         num = num / 10;
     }
 
-    printf("\nThe product of digits of the number is %d.\n", product);
+    printf("\nThe sum of digits of the number is %d.\n", sum);
     return 0;
 }
