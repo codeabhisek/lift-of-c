@@ -3,14 +3,14 @@
 #include <stdio.h>
 
 int main(){
-    int num, product = 1, Remainder;
+    int num, sum = 0, Remainder;
     printf("\nEnter a number:\n");
     scanf("%d", &num);
 
     while(num>0)
     {
         Remainder = num % 10;
-        product = product * Remainder;
+        sum = sum * Remainder;
         num = num / 10;
     }
 
